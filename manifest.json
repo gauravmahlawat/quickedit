@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Quick Edit",
+  "description": "Quick Edit a helpful chrome extension for manual testing",
+  "version": "1.0.0",
+  "icons": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
